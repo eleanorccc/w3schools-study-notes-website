@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<!-- https://www.w3schools.com/w3css/w3css_templates.asp -->
+<!-- https://www.w3schools.com/tags/ref_keyboardshortcuts.asp -->
+<!-- https://yuechi.w3spaces.com/ -->
+
+
+<html lang="en">
+<title>Yue Chi's Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="shortcut icon" href="/icon.png"/>
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+<body class="w3-white w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+  style="z-index:3;width:250px;font-weight:bold" id="mySidebar"><br>
+  <h3 class="w3-padding-64 w3-center"><b>Yue Chi</b></h3>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+  <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button">RESEARCH</a>
+  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+  <a href="#notes" onclick="w3_close()" class="w3-bar-item w3-button">STUDY NOTES</a>
+  <a href="#certifications" onclick="w3_close()" class="w3-bar-item w3-button">CERTIFICATIONS</a>
+  <a href="#awards" onclick="w3_close()" class="w3-bar-item w3-button">AWARDS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-dark-grey w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Yue Chi</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:200px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <!-- About section -->
+  <div class="w3-container w3-white w3-center w3-text-dark-grey w3-padding-32" id="about">
+    <img src="/me.jfif" alt="Me" class="w3-image w3-padding-32" width="300" height="300">
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h2 class="w3-center" class="w3-opacity"><b>Yue Chi</b></h2>
+      <p>Hi, my name is Yue Chi. I am a senior student at University of Michigan, double majoring in
+        honors mathematics and statistics. Before that, I was a student at XJTLU, majoring in applied mathematics.</p>
+      <p class="w3-center"><a href="mailto:yuechi@umich.edu">Email</a> |
+        <a href="https://github.com/eleanorccc">Github</a> |
+        <a href="https://www.linkedin.com/in/yue-eleanor-chi-906897216/">Linkedin</a></p>
+      <p class="w3-center"><button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" onclick="document.location='default.asp'">
+        Download My Resume</button></p>
+      <hr class="w3-opacity">
+    </div>
+  </div>
+
+
+
+    <!-- Education section -->
+  <div class="w3-container w3-white w3-padding-32 w3-padding-large">
+    <div class="w3-content" style="max-width:750px">
+      <h2 class="w3-opacity"><b>Education</b></h2>
+      <div class="w3-container">
+        <h5 class="w3-opacity"><b>University of Michigan, Ann Arbor <a href="https://umich.edu/">(Umich)</a></b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 -
+          <span class="w3-tag w3-teal w3-round">Current</span></h6>
+        <p>Bachelor of Science in Honors Mathematics and Statistics</p>
+        <hr>
+      </div>
+      <div class="w3-container">
+        <h5 class="w3-opacity"><b>Xi'an Jiaotong-Liverpool University <a href="https://www.xjtlu.edu.cn/en/">(XJTLU)</a></b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2017 - April 2019</h6>
+        <p>Bachelor of Science in Applied Mathematics</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Research section -->
+  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="research">
+    <div class="w3-content" style="max-width:750px">
+      <h2 class="w3-opacity"><b>Research Experience</b></h2>
+      <ol>
+        <h5 class="w3-opacity"><b><li>Front End Developer</b></h5>
+        <!--    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>   -->
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+        <hr>
+        <h5 class="w3-opacity"><b><li>Web Developer / something.com</b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+        <hr>
+        <h5 class="w3-opacity"><b><li>Graphic Designer / designsomething.com</b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+      </ol>
+    </div>
+  </div>
+
+
+
+
+  <!-- Projects section -->
+  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="projects">
+    <div class="w3-content" style="max-width:750px">
+      <h2 class="w3-opacity"><b>Projects</b></h2>
+      <ol>
+        <h5 class="w3-opacity"><b><li>Front End Developer / w3schools.com</b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+        <hr>
+        <h5 class="w3-opacity"><b><li>Web Developer / something.com</b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+        <hr>
+        <h5 class="w3-opacity"><b><li>Graphic Designer / designsomething.com</b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+      </ol>
+    </div>
+  </div>
+
+
+
+      <!-- Notes section -->
+  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="notes">
+    <div class="w3-content" style="max-width:750px">
+      <h2 class="w3-opacity"><b>Study Notes</b></h2>
+        <p>I put all of my study notes on this <button class="button w3-dark-grey" onclick="document.location='default.asp'">website</button>, 
+          including math, stats and cs.</p>
+    </div>
+  </div>  
+  
+  
+
+      <!-- Cerfitications section -->
+  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="certifications">
+    <div class="w3-content" style="max-width:750px">
+      <h2 class="w3-opacity"><b>Certifications</b></h2>
+      <ol>
+        <h5 class="w3-opacity"><li><b>SAS Certified Specialist: Base Programming Using SAS 9.4</b></h5>
+        <p>sas base | <a href="https://www.sas.com/en_us/certification.html">SAS</a> | 
+          <button class="button w3-dark-grey" onclick="document.location='default.asp'">pdf</button></p>
+        <hr>
+        <h5 class="w3-opacity"><li><b>SAS Certified Professional: Advanced Programming Using SAS 9.4</b></h5>
+        <p>sas adv | <a href="https://www.sas.com/en_us/certification.html">SAS</a> | 
+          <button class="button w3-dark-grey" onclick="document.location='default.asp'">pdf</button></p>
+        <hr>
+        <h5 class="w3-opacity"><li><b>Python 3 Programming</b></h5>
+        <p><a href="https://www.coursera.org/">COURSERA</a> | University of Michigan | 
+          <button class="button w3-dark-grey" onclick="document.location='https://coursera.org/share/6ad05b5277281e0f2c4c1d2dd309a1a9'">pdf</button></p>      
+      </ol>
+    </div>
+  </div>
+
+
+
+      <!-- Awards section -->
+  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="awards">
+    <div class="w3-content" style="max-width:750px">
+      <h2 class="w3-opacity"><b>Awards</b></h2>
+      <div class="w3-container">
+        <h5 class="w3-opacity"><b>University of Michigan, Ann Arbor <a href="https://umich.edu/">(Umich)</a></b></h5>
+        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2018</h6>
+        <p>Bachelor of Science in Honors Mathematics and Statistics</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:700px">
+      <h4><b>Contact Me</b></h4>
+      <p>Do you want to contact me? Write me an email:) I love meeting new people!</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
