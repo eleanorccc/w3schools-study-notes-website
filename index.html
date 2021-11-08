@@ -22,26 +22,34 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top w3-center" style="z-index:3;width:250px" id="mySidebar">
   <div class="w3-container w3-display-container w3-padding-16">
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-    <h3 class="w3-wide"><b>LOGO</b></h3>
+    <h3 class="w3-padding-64 w3-center"><b>Yue Chi</b></h3>
   </div>
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-    <a href="#" class="w3-bar-item w3-button">Shirts</a>
-    <a href="#" class="w3-bar-item w3-button">Dresses</a>
-    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align w3-center" id="myBtn">
-      Jeans <i class="fa fa-caret-down"></i>
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align w3-center" id="math">
+      Mathematics <i class="fa fa-caret-down"></i>
     </a>
     <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button">Skinny</a>
-      <a href="#" class="w3-bar-item w3-button">Relaxed</a>
+      <a href="#" class="w3-bar-item w3-button">Algebra</a>
+      <a href="#" class="w3-bar-item w3-button">Analysis</a>
     </div>
-    <a href="#" class="w3-bar-item w3-button">Jackets</a>
-    <a href="#" class="w3-bar-item w3-button">Gymwear</a>
-    <a href="#" class="w3-bar-item w3-button">Blazers</a>
-    <a href="#" class="w3-bar-item w3-button">Shoes</a>
+    <a onclick="myAccFunc2()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align w3-center" id="stats">
+      Statistics <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc2" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-bar-item w3-button">Probability</a>
+      <a href="#" class="w3-bar-item w3-button">Ana</a>
+    </div>
+    <a onclick="myAccFunc3()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align w3-center" id="stats">
+      Computer Science <i class="fa fa-caret-down"></i>
+    </a>
+    <div id="demoAcc3" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-bar-item w3-button">Python</a>
+      <a href="#" class="w3-bar-item w3-button">R</a>
+      <a href="#" class="w3-bar-item w3-button">C/C++</a>
+      <a href="#" class="w3-bar-item w3-button">Sas</a>
+    </div>
+    <a href="#" class="w3-bar-item w3-button">Gre Math Sub</a>
   </div>
-  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
-  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
 </nav>
      
      
@@ -97,130 +105,49 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </div>
-
-
-
-  <!-- Research section -->
-  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="research">
-    <div class="w3-content" style="max-width:750px">
-      <h2 class="w3-opacity"><b>Research Experience</b></h2>
-      <ol>
-        <h5 class="w3-opacity"><b><li>Front End Developer</b></h5>
-        <!--    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>   -->
-        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-        <hr>
-        <h5 class="w3-opacity"><b><li>Web Developer / something.com</b></h5>
-        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-        <hr>
-        <h5 class="w3-opacity"><b><li>Graphic Designer / designsomething.com</b></h5>
-        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-      </ol>
-    </div>
-  </div>
-
-
-
-
-  <!-- Projects section -->
-  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="projects">
-    <div class="w3-content" style="max-width:750px">
-      <h2 class="w3-opacity"><b>Projects</b></h2>
-      <ol>
-        <h5 class="w3-opacity"><b><li>Front End Developer / w3schools.com</b></h5>
-        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-        <hr>
-        <h5 class="w3-opacity"><b><li>Web Developer / something.com</b></h5>
-        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-        <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-        <hr>
-        <h5 class="w3-opacity"><b><li>Graphic Designer / designsomething.com</b></h5>
-        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-      </ol>
-    </div>
-  </div>
-
-
-
-      <!-- Notes section -->
-  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="notes">
-    <div class="w3-content" style="max-width:750px">
-      <h2 class="w3-opacity"><b>Study Notes</b></h2>
-        <p>I put all of my study notes on this <button class="button w3-dark-grey" onclick="document.location='default.asp'">website</button>, 
-          including math, stats and cs.</p>
-    </div>
-  </div>  
-  
   
 
-      <!-- Cerfitications section -->
-  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="certifications">
-    <div class="w3-content" style="max-width:750px">
-      <h2 class="w3-opacity"><b>Certifications</b></h2>
-      <ol>
-        <h5 class="w3-opacity"><li><b>SAS Certified Specialist: Base Programming Using SAS 9.4</b></h5>
-        <p>sas base | <a href="https://www.sas.com/en_us/certification.html">SAS</a> | 
-          <button class="button w3-dark-grey" onclick="document.location='default.asp'">pdf</button></p>
-        <hr>
-        <h5 class="w3-opacity"><li><b>SAS Certified Professional: Advanced Programming Using SAS 9.4</b></h5>
-        <p>sas adv | <a href="https://www.sas.com/en_us/certification.html">SAS</a> | 
-          <button class="button w3-dark-grey" onclick="document.location='default.asp'">pdf</button></p>
-        <hr>
-        <h5 class="w3-opacity"><li><b>Python 3 Programming</b></h5>
-        <p><a href="https://www.coursera.org/">COURSERA</a> | University of Michigan | 
-          <button class="button w3-dark-grey" onclick="document.location='https://coursera.org/share/6ad05b5277281e0f2c4c1d2dd309a1a9'">pdf</button></p>      
-      </ol>
-    </div>
-  </div>
-
-
-
-      <!-- Awards section -->
-  <div class="w3-container w3-white w3-padding-32 w3-padding-large" id="awards">
-    <div class="w3-content" style="max-width:750px">
-      <h2 class="w3-opacity"><b>Awards</b></h2>
-      <div class="w3-container">
-        <h5 class="w3-opacity"><b>University of Michigan, Ann Arbor <a href="https://umich.edu/">(Umich)</a></b></h5>
-        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2018</h6>
-        <p>Bachelor of Science in Honors Mathematics and Statistics</p>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Contact section -->
-  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
-    <div class="w3-content" style="max-width:700px">
-      <h4><b>Contact Me</b></h4>
-      <p>Do you want to contact me? Write me an email:) I love meeting new people!</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
-        </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
-        </div>
-        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
-      </form>
-    </div>
-  </div>
 
 
 
 <!-- End page content -->
 </div>
 
+
 <script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function myAccFunc2() {
+  var x = document.getElementById("demoAcc2");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function myAccFunc3() {
+  var x = document.getElementById("demoAcc3");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("math").click();
+document.getElementById("stats").click();
+document.getElementById("cs").click();
+
 // Script to open and close sidebar
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
