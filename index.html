@@ -10,7 +10,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="shortcut icon" href="/icon.png"/>
+<link rel="shortcut icon" href="/w3images/icon.png"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
@@ -18,15 +21,23 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
 <body class="w3-white w3-content" style="max-width:1200px">
 
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <form class="w3-padding-large w3-hover-white w3-hide-small w3-right" id="form" role="search">
+      <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+      <button class="w3-button"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+
+
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top w3-center" style="z-index:3;width:250px" id="mySidebar">  
   <h3 class="w3-padding-64 w3-center w3-text-grey"><b>Yue Chi</b></h3>
-  
-  <form id="form" role="search">
-  	<input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
-  	<button>Search</button>
-	</form>
-  
   
   <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
     <a href="#home" class="w3-button w3-block w3-white w3-left-align w3-center w3-text-grey">Home</a>
@@ -82,10 +93,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
   <div class="w3-container w3-white w3-center w3-padding-32" id="home">
     <div class="w3-content w3-justify" style="max-width:600px">
       <h2 class="w3-opacity"><b>Home</b></h2>
+      
       <p>Hi, my name is Yue Chi. I am a senior student at University of Michigan, double majoring in
         honors mathematics and statistics. Before that, I was a student at XJTLU, majoring in applied mathematics.</p>
       <p>I put some of my study notes on this website so that I can review them more conveniently. Feel free to look at them and take what you need. </p>
       <p> To go back to my homepage, click the button below.</p>
+      
       <p class="w3-center"><button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom" onclick="document.location='https://yuechi.netlify.app/'">
         Back to homepage</button></p>
       <hr class="w3-opacity">
